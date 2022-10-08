@@ -106,8 +106,10 @@ margin-left: 50px;
 }
 
 .auth-nav .link {
-    color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
 
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: var(--primary-font-size);
     line-height: 1.14;
@@ -229,8 +231,7 @@ button {
 }
 
 .project {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
 }
 
 .text {
@@ -317,6 +318,9 @@ button {
 }
 
 .footer-social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
     width: 206px;
     height: 44px;
@@ -333,9 +337,8 @@ button {
 }
 
 .social-link {
-    display: inline-block;
-    margin: auto;
-    padding: 12px;
+    display: flex;
+    margin: 0;
     width: 44px;
     height: 44px;
 

@@ -101,9 +101,10 @@ body {
 }
 
 .auth-nav .link {
-  color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
 
-  font-weight: 500;
+  color: var(--primary-text-color);-weight: 500;
   font-size: var(--primary-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -209,9 +210,11 @@ body {
 }
 
 .feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
   margin-bottom: 30px;
   background: #F5F4FA;
   border-radius: 4px;
@@ -259,6 +262,11 @@ body {
 }
 
 /* ----------------ЧИМ МИ ЗАЙМАЄМОСЯ--------------- */
+
+.section-work {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 
 .section-title {
   margin-top: 0;
@@ -343,6 +351,7 @@ body {
 
 .social-networks {
   display: flex;
+  justify-content: space-between;
   width: 206px;
   height: 44px;
   padding: 0;
@@ -351,9 +360,8 @@ body {
 }
 
 .social-link {
-  display: inline-block;
-  margin: auto;
-  padding: 12px;
+  display: flex;
+  margin: 0;
   width: 44px;
   height: 44px;
 
@@ -384,16 +392,16 @@ body {
 }
 
 .clients-list {
-  padding-top: 50px;
-  padding-bottom: 94px;
+  display: flex;
+  align-items: center;
   padding-left: 0;
   padding-right: 0;
   margin: 0;
-  display: flex;
 }
 
 .clients-list-item {
   margin-left: 30px;
+  
 }
 
 .clients-list-item:first-child {
@@ -401,14 +409,14 @@ body {
 }
 
 .clients-link {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-
-  text-align: center;
   fill: #AFB1B8;
 }
 
@@ -424,6 +432,10 @@ body {
 
 /* -----------------ПІДВАЛ----------------- */
 
+.container.lower {
+  display: flex;
+}
+
 .logo-lower {
   color: var(--primary-white-color);
   font-family: var(--secondary-font-family);
@@ -438,10 +450,6 @@ body {
   padding-bottom: 60px;
   
   background-color: var(--secondary-bg-color);
-}
-
-.flex {
-  display: flex;
 }
 
 .adress {
@@ -493,10 +501,12 @@ body {
 }
 
 .footer-social-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   width: 206px;
   height: 44px;
-
 }
 
 .footer-social-link > .social-link {
