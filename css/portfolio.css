@@ -147,8 +147,6 @@ margin-left: 50px;
     display: flex;
     margin-top: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
-    padding-bottom: 34px;
     padding-left: 0;
     justify-content: center;
 }
@@ -258,7 +256,6 @@ button {
 }
 
 .footer {
-    width: 1600px;
     padding-top: 60px;
     padding-bottom: 60px;
 

@@ -170,6 +170,7 @@ body {
 
 .button {
   cursor: pointer;
+  border: 0;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
@@ -243,6 +244,7 @@ body {
   font-weight: 700;
   font-size: var(--primary-font-size);
   line-height: 1.14;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -259,6 +261,7 @@ body {
 
 .section-title {
   margin-top: 0;
+  margin-bottom: 50px;
   color: var(--secondary-text-color);
 
   font-weight: 700;
@@ -281,10 +284,11 @@ body {
 
 /* ---------------НАША КОМАНДА--------------- */
 
-.section .team {
+.section.team {
   margin-bottom: 0;
   padding-top: 94px;
-  padding-bottom: 0;
+  padding-bottom: 94px;
+
   background-color: #F5F4FA;
 }
 
@@ -313,6 +317,7 @@ body {
 }
 
 .team-list .title {
+  margin-top: 0;
   margin-bottom: 10px;
   color: var(--secondary-text-color);
 
@@ -371,6 +376,12 @@ body {
 
 /* -----------------КЛІЄНТИ----------------- */
 
+.section-clients {
+  margin-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients-list {
   padding-top: 50px;
   padding-bottom: 94px;
@@ -422,7 +433,6 @@ body {
 }
 
 .footer {
-  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   
@@ -467,7 +477,7 @@ body {
 .footer-connection {
   width: 206px;
   height: 80px;
-  margin: auto 100px 70px;
+  margin-left: 70px;
 }
 
 .join {
