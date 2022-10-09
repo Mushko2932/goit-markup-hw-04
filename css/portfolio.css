@@ -202,7 +202,6 @@ button {
     margin-bottom: 30px;
 
     border: 1px solid #EEEEEE;
-    
 }
 
 .work-list:hover {
@@ -249,9 +248,12 @@ button {
 
 /* -----------------ПІДВАЛ----------------- */
 
+.container.lower {
+    display: flex;
+}
+
 .logo-lower {
     color: var(--primary-white-color);
-
     font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
@@ -264,10 +266,6 @@ button {
     padding-bottom: 60px;
 
     background-color: var(--secondary-bg-color);
-}
-
-.flex {
-    display: flex;
 }
 
 .adress {
@@ -321,7 +319,6 @@ button {
     margin: 0;
     width: 206px;
     height: 44px;
-
 }
 
 .footer-social-link>.social-link {
@@ -355,8 +352,6 @@ button {
     height: 20px;
     margin: auto;
     fill: currentColor;
-}.container.lower {
-    display: flex;
 }
 
 .logo-lower {
