@@ -10,6 +10,11 @@
     --primary-font-size: 14px;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 body {
     margin: 0;
 
@@ -35,8 +40,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .navigation {
@@ -184,24 +189,16 @@ button {
 
 /*------------- РОБОТИ -------------*/
 
-.title {
-    margin-top: 0;
-    margin-bottom: 4px;
-
-    color: var(--secondary-text-color);
-
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .work-list {
-    width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-
-    border: 1px solid #EEEEEE;
+    width: calc((100% - 60px) / 3);
 }
 
 .work-list:hover {
@@ -211,29 +208,26 @@ button {
     rgba(0, 0, 0, 0.16);
 }
 
-.work-list:nth-child(3n) {
-    margin-right: 0;
-}
-
-.work-list:nth-last-child(-n+3) {
-    margin-bottom: 0;
-}
-
-.work {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 0;
-}
-
 .work-list .link {
     text-decoration: none;
 }
 
 .project {
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
     padding: 20px 24px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 4px;
+
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .text {
