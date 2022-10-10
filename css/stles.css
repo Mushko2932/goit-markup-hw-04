@@ -10,6 +10,15 @@
   --primary-font-size: 14px;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+}
+
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
@@ -302,21 +311,21 @@ body {
 }
 
 .team-list {
+  padding: 0;
   display: flex;
   gap: 30px;
 }
 
 .team-list .list {
   width: calc((100% - 90px) / 4);
-  
+
   background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px
+    rgba(0, 0, 0, 0.12), 0px 1px 1px
+    rgba(0, 0, 0, 0.14), 0px 2px 1px
+    rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
-/* .team-list .list + .list {
-  margin-left: 30px;
-} */
 
 .worker {
   padding-top: 30px;
@@ -510,6 +519,10 @@ body {
 .footer-social-link > .social-link {
 background: rgba(255, 255, 255, 0.1);
 border-radius: 50px;
+}
+
+.footer-social-link .social-icons {
+  fill: var(--primary-white-color);
 }
 
 .footer-social-link > .social-link:hover {
