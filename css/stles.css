@@ -113,7 +113,8 @@ body {
   display: flex;
   align-items: center;
 
-  color: var(--primary-text-color);-weight: 500;
+  color: var(--primary-text-color);
+  font-weight: 500;
   font-size: var(--primary-font-size);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -133,7 +134,7 @@ body {
 }
 
 .auth-nav .link:hover,
-.uth-nav .link:focus {
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -378,7 +379,8 @@ body {
   color: #AFB1B8;
 }
 
-.social-link:hover{
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -427,7 +429,8 @@ body {
   fill: #AFB1B8;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -525,6 +528,7 @@ border-radius: 50px;
   fill: var(--primary-white-color);
 }
 
-.footer-social-link > .social-link:hover {
+.footer-social-link > .social-link:hover,
+.footer-social-link>.social-link:focus {
   background: var(--accent-color);
 }

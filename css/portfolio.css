@@ -139,7 +139,7 @@ margin-left: 50px;
 }
 
 .auth-nav .link:hover,
-.uth-nav .link:focus {
+.auth-nav .link:focus {
     color: var(--accent-color);
 }
 
@@ -347,7 +347,8 @@ button {
     color: #AFB1B8;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
